@@ -1,0 +1,172 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+
+	font-size: 1em;
+	font-family: Verdana, Arial Narrow, sans-serif;
+	background: #1C3144;
+}
+
+h2{
+	color: #fff;
+}
+h3{
+	padding: 10px;
+	font-size: 2em;
+}
+
+
+/* INICIO DO CABEÇALHO*/
+#cabecalho{
+	background-color: #1F487E;
+	padding: 15px;
+	text-align: center;
+}
+
+#logo{
+	padding: 12px;
+	height: 160px;
+	clear: both;
+}
+
+#menu{
+	background:#1F487E;
+	padding: 10px;
+	text-align: center;
+}
+
+a{
+	margin: 0px 10px;
+	text-decoration:none;
+}
+
+#menu a:link,#menu a:visited{
+	color: #FFF;
+	padding: 10px;
+}
+
+#menu a:hover{
+	background:#FFF;
+	color: #376996;
+
+}
+/* FIM DO CABEÇALHO*/
+
+/* PARTE PRINCIPAL*/
+
+#principal{
+	width: 985px;
+	margin: 15px auto;
+	padding: 20px;
+}
+
+#area-lateral{
+	float: right;
+	clear: both;
+	background:#D3D0CB;
+	width: 240px;
+	padding: 15px;
+	font-size: 0.8em;
+}
+
+.lateral-post{
+	background:#1F487E;
+	padding: 10px;
+	color: #FFF;
+	text-align: center;
+}
+
+.cabecalho-postagens{
+	width: 660px;
+}
+
+.postado{
+	font-size: 0.8em;
+	display: block;
+	padding: 10px;
+}
+
+#rodape{
+	background:#1F487E;
+	padding: 20px;
+	color: #FFF;
+	text-align: center;
+	width: 985px;
+	margin: 10px auto;
+}
+
+/* BLOCO 1 */
+.bloco{
+	width: 660px;
+	background:#DBD4D3;
+	padding: 20px;
+
+}
+
+.bloco a:link,.bloco a:visited{
+	color: #1F487E;
+	padding: 10px;
+}
+
+.bloco a:hover{
+	text-decoration: underline;
+}
+
+/* FIM DO BLOCO 1*/
+
+/* BLOCO 2*/
+.bloco2{
+	width: 660px;
+	background:#DBD4D3;
+	padding: 20px;
+	margin-left: 300px;
+	
+}
+
+.bloco2 a:link,.bloco2 a:visited{
+	color: #1F487E;
+	padding: 10px;
+}
+
+.bloco2 a:hover{
+	text-decoration: underline;
+}
+
+/* FIM DO BLOCO 2*/
+
+#area-lateral a:link,#area-lateral a:visited{
+	color: #1F487E;
+	padding: 10px;
+}
+
+#area-lateral a:hover{
+	text-decoration: underline;
+}
+
+#area-lateral-baixo{
+	float: right;
+	clear: both;
+	background:#D3D0CB;
+	width: 240px;
+	padding: 15px;
+	font-size: 0.8em;
+	margin-top: 20px;
+}
+
+#area-lateral-baixo a:link,#area-lateral-baixo a:visited{
+	color: #1F487E;
+	padding: 10px;
+}
+
+#area-lateral-baixo a:hover{
+	text-decoration: underline;
+}
+
+#brasil{
+	float: right;
+
+}
+
