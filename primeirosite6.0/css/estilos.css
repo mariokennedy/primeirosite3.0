@@ -1,0 +1,183 @@
+body, html{
+	margin: 0;
+	font: 16px "Trebuchet MS", sans-serif;
+	height: 100%;
+
+}
+
+#menu{
+	padding: 3px;
+	background: #37393A;
+
+}
+
+#logo-menu{
+	margin: 5px;
+	
+}
+
+
+#menu-lateral{
+	text-align: right;
+	display: inline;
+	float: right;
+	padding: 5px;
+	margin-top: 40px;
+	margin-right: 90px;
+
+}
+#menu-lateral a{
+	padding-right: 15px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+#menu-lateral a:link, a:visited{
+	color: #fff;
+}
+
+#menu-lateral a:hover{
+	color: #ECE2D0;
+}
+
+h3{
+	text-align: center;
+}
+
+
+.caixa1, .caixa2, .caixa3, .caixa4{
+	height: 100%;
+}
+
+.conteudo{
+	color: #000;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+	margin-top: -30px;
+	text-transform: uppercase;
+}
+.conteudo-fundo img{
+	width: 100%;
+	margin-bottom: -5px;
+	
+}
+#primeira{
+	float: left;
+	margin: 50px;
+	text-align: center;
+	margin-left: 140px;
+}
+
+#segunda{
+	float: left;
+	margin: 50px;
+	text-align: center;
+}
+
+#terceira{
+	float: left;
+	margin: 50px;
+	text-align: center;
+}
+
+#eu{
+	float: left;
+	margin: 50px;
+	text-align: center;
+
+}
+
+.conteudo-titulo{
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+	color: #000;
+	background-color: white;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+
+}
+
+.conteudo-website{
+	position: absolute;
+	left: 0;
+	margin-top: -300px;
+	width: 100%;
+	text-align: center;
+}
+
+span.website{
+	color: #000;
+	background-color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+
+}
+
+.caixa1{
+	background: url(../imagens/imagem1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	background-attachment: fixed; 
+
+}
+
+.caixa2{
+	background: url(../imagens/imagem2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	background-attachment: fixed; 
+	clear: both;
+}
+
+.caixa3{
+	background: url(../imagens/imagem3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	background-attachment: fixed; 
+}
+
+.caixa4{
+	background: url(../imagens/imagem4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	background-attachment: fixed; 
+}
+
+.caixa1 .conteudo-titulo .titulo{
+	color: #111;
+	background-color: #fff;
+	
+}
+
+#rodape{
+	padding: 20px;
+	background: #37393A;
+	color: #fff;
+	
+	
+}
+
+#conteudo-rodape{
+	text-align: center;
+}
